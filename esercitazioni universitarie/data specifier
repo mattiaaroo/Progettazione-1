@@ -1,0 +1,8 @@
+Data Type:
+
+Indirizzo: (via: Stringa, civico: [Int > 0] + (/a-z))
+Data: (giorno: Int(1..31),mese: Int(1..12),anno: Int
+anno1 = (0..9){4}
+anno 2 = anno1 + 1
+AnnoAccademico: "anno1 / anno2"
+Crediti: {3,6,9,12,18}

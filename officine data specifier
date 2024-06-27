@@ -1,0 +1,37 @@
+Catena:
+
+Officina:
+	nome: Stringa
+	indirizzo: Indirizzo
+	numero di dipendenti
+	anni di servizio dipendente
+	direttore
+	
+Dipendente:	
+	nome: Stringa
+	codice_fiscale: CodFisc
+	numero di telefono
+	
+Direttore(Dipendente):
+	data di nascita: Data
+	
+Riparazione:
+	codice: Stringa
+	data_accettazione: Data
+	ora_accettazione: Ora
+
+RiparazioneTerminata(Riparazione):
+	data_riconsegna: Data
+	ora_riconsegna: Ora
+
+Veicolo:
+	modello: Stringa
+	tipo: Stringa
+	targa: Targa
+	anno_immatricolazione: Anno
+
+Proprietario(Persona):
+	nome: Nome
+	codice_fiscale: CodFisc
+	indirizzo: Indirizzo
+	numero_telefono: Numero
